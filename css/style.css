@@ -1,0 +1,57 @@
+/* Regole Generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  text-align: center;
+}
+/* Fine Regole Generali */
+
+
+/* Regole Distanza */
+.contenitore1 {
+  margin-bottom: 25px;
+}
+
+/* Regole Elementi Contenitore 1 e 2 */
+.deals {
+  position: relative;
+  display: inline-block;
+}
+
+.deals .sconto {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: green;
+  font-size: 15px;
+}
+
+.deals .scontoscarso {
+  background: red;
+}
+
+/* Fine Regole Elementi Contenitore 1 e 2 */
+
+/* Regole Cuore A Comparsa */
+.hearts {
+  width: 100%;
+  display: none;
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  color: red;
+  font-size: 25px;
+}
+
+.deals:hover .hearts {
+  display: block;
+}
+
+.deals .hearts a{
+  text-decoration: none;
+  color: red;
+}
+
+/* Fine Regole Cuore */
